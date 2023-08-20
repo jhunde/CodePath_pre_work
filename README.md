@@ -37,7 +37,7 @@
     ```
 
     > **If we run our app now, nothing will happen. We need to call this function when the button is tapped.**
-1. Go back to the changeBackgroundColor IBAction and add the following two lines:
+1. Go back to the `changeBackgroundColor` IBAction and add the following two lines:
     ```swift
         let randomColor = changeColor()
         view.backgroundColor = randomColor

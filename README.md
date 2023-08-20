@@ -38,7 +38,7 @@
 
 * If we run our app now, nothing will happen. We need to call this function when the button is tapped.
 * Go back to the changeBackgroundColor IBAction and add the following two lines:
-    ```
+    ```swift
         let randomColor = changeColor()
         view.backgroundColor = randomColor
     ```
@@ -53,7 +53,7 @@
 
 
 # App Brainstorming
-### Make a list of your favorite 3-5 applications and identify 2-3 features that make them your favorite app. Its okay if features repeat on different apps
+Make a list of your favorite 3-5 applications and identify 2-3 features that make them your favorite app. Its okay if features repeat on different apps
 Example App: Instagram
 Changing the background color of the messages screen
 Deleting old messages

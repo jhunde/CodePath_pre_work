@@ -49,7 +49,7 @@
 * Lable includes: **your name**, your **university name**, and **either your current job** or **_aspirational job**
 * The screen has a background color that can changes when the button is tapped
 
-
+![](https://i.imgur.com/y3VMab4.gif)
 
 
 # App Brainstorming

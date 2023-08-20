@@ -24,7 +24,7 @@
 1. `Control` **+** Drag from the button on storyboard to somewhere inside of the `ViewController` class
 1. Name your IBAction `changeBackgroundColor`
 1. Change the type form `Any` to `UIButton`
-1. Open the `ViewController.swift` file and under the 'IBAction' you just created, write the following code:
+1. Open the `ViewController.swift` file and under the `IBAction` you just created, write the following code:
     ```swift
     func changeColor() -> UIColor{
 
@@ -36,8 +36,8 @@
         }
     ```
 
-* If we run our app now, nothing will happen. We need to call this function when the button is tapped.
-* Go back to the changeBackgroundColor IBAction and add the following two lines:
+    * If we run our app now, nothing will happen. We need to call this function when the button is tapped.
+1. Go back to the changeBackgroundColor IBAction and add the following two lines:
     ```swift
         let randomColor = changeColor()
         view.backgroundColor = randomColor
